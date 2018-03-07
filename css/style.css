@@ -1,0 +1,219 @@
+        body.html {
+            height: 100%;
+        }
+        /* Parallax */
+        
+        .parallax {
+            background-image: url("../img/web.jpg");
+            height: 300px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Meniu */
+        
+        .meniu {
+            background: lightgrey;
+        }
+        
+        .meniu ul {
+            padding: 0px;
+        }
+        
+        .meniu ul li {
+            float: left;
+            list-style: none;
+            padding: 25px;
+            text-transform: uppercase;
+            background: lightgrey;
+            border-right: 1px dashed gray;
+            font-weight: bold;
+        }
+        
+        .meniu ul li:last-child {
+            border-right: none;
+        }
+        
+        .meniu ul li a {
+            color: gray;
+            text-decoration: none;
+        }
+        
+        .meniu ul li:hover {
+            border-bottom: 3px solid blue;
+        }
+        
+        .meniu ul li a:hover {
+            color: blue;
+        }
+        /* Main Container */
+        
+        .container {
+            margin-top: -200px;
+        }
+        /* .card {
+              background: white;
+              box-shadow: 5px 10px 10px;
+              padding: 5px;
+        } */
+        
+        .card img {
+            width: 250px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+        
+        .card h2 {
+            color: gray;
+        }
+        
+        .card .cardContent {
+            background: #fff;
+        }
+        
+        .card .cardSocialMedia {
+            text-align: center;
+            border-top: 1px dashed blue;
+            padding: 10px;
+        }
+        
+        .card .cardSocialMedia .fab {
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 50px;
+        }
+        
+        .card .cardSocialMedia .fab:hover {
+            color: white;
+            background: rgb(0, 89, 255);
+        }
+        
+        .content {
+            background: white;
+        }
+        
+        .hrContent {
+            border: 0;
+            border-top: 1px dashed blue;
+        }
+        
+        .mend {
+            width: 100%;
+            height: 220px;
+        }
+        
+        .floare {
+            width: 100%;
+            height: 220px;
+        }
+        
+        .login {
+            width: 100%;
+            height: 220px;
+        }
+        
+        .movie {
+            width: 100%;
+            height: 220px;
+        }
+        /* Skills Section */
+        
+        .skills {
+            background: #eee;
+        }
+        
+        .outer {
+            border: 1px solid #243c4f;
+            height: 7px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .inner {
+            background: #243c4f;
+            height: 5px;
+        }
+        /* skill classes */
+        
+        .skill10 {
+            width: 10%;
+        }
+        
+        .skill20 {
+            width: 20%;
+        }
+        
+        .skill30 {
+            width: 30%;
+        }
+        
+        .skill40 {
+            width: 40%;
+        }
+        
+        .skill50 {
+            width: 50%;
+        }
+        
+        .skill60 {
+            width: 60%;
+        }
+        
+        .skill70 {
+            width: 70%;
+        }
+        
+        .skill80 {
+            width: 80%;
+        }
+        
+        .skill90 {
+            width: 90%;
+        }
+        
+        .skill100 {
+            width: 100%;
+        }
+        
+        h3 {
+            text-align: center;
+        }
+        
+        .skillIcon .fas {
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 50px;
+            background: #243c4f;
+            color: #fff;
+            font-size: 20px;
+            margin-left: 65px;
+        }
+        
+        .skillIcon .fab {
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 50px;
+            background: #243c4f;
+            color: #fff;
+            font-size: 20px;
+            margin-left: 40px;
+        }
+        
+        .skillTxt {
+            margin-left: 35px;
+        }
+        
+        .footer {
+            color: blue;
+        }
+        /* Form content */
+        
+        .form {
+            background: white;
+        }
+        
+        .form-group textarea {
+            width: 100%;
+        }
